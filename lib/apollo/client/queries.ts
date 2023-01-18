@@ -1,4 +1,3 @@
-import { CuteCatData } from "@/types/CuteCats";
 import { gql } from "@apollo/client";
 
 export const getCuteCats = gql`

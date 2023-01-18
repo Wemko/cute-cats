@@ -13,6 +13,12 @@ npm run dev
 
 Once running go to http://localhost:3000/. 
 
+# Open API info
+
+This page was made with https://thecatapi.com/. It fetches some random cat images and displays it on the main page. 
+From there, you can select a cat image you like, and you'll be redirected to the details page. 
+Since the open API didn't have more info, I've added some dummy text for a description and some details.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
