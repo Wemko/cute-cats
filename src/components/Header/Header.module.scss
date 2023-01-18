@@ -1,0 +1,16 @@
+@use "src/styles/variables";
+@use "src/styles/breakpoints";
+
+.headerBar {
+    background-color: variables.$secondary-background-color; 
+    border-bottom: 1px solid variables.$border-color;
+ }
+
+ .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: variables.$page-max-width;
+    margin: 0 auto;
+    padding: variables.$spacing-m;
+ }

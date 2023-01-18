@@ -10,6 +10,7 @@ const schema: DocumentNode = gql(`
 
     type Query {
         getCuteCats: [Cat]!
+        getCuteCat(id: String!): Cat!
     }
 `);
 

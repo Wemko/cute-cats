@@ -1,0 +1,31 @@
+@use "src/styles/variables";
+@use "src/styles/breakpoints";
+
+$item-width: 200;
+
+:export {
+   itemWidth: $item-width;
+}
+
+.catContainer {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: 0 auto;
+   max-width: variables.$page-max-width;
+}
+
+.catItem {
+   margin: variables.$spacing-lx;
+   width: $item-width + px;
+   overflow: hidden;
+
+   @include breakpoints.mobile {
+      margin: variables.$spacing-s;
+   }
+
+   @include breakpoints.tablet {
+      margin: variables.$spacing-m;
+   }
+}

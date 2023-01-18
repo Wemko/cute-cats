@@ -1,0 +1,18 @@
+@use "src/styles/variables";
+
+.catBlock {
+    background-color: variables.$secondary-background-color;
+    padding: variables.$spacing-lx;
+    border: 1px solid variables.$border-color;
+}
+
+.catTitle {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.catImage {
+    object-fit: cover;
+}

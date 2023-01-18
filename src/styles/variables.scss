@@ -1,0 +1,17 @@
+$spacing-size-step: 2; // size in px
+
+$spacing-sxx: $spacing-size-step + px;
+$spacing-sx: $spacing-size-step * 2 + px;
+$spacing-s: $spacing-size-step * 4 + px;
+$spacing-m: $spacing-size-step * 6 + px;
+$spacing-l: $spacing-size-step * 8 + px;
+$spacing-lx: $spacing-size-step * 12 + px;
+$spacing-lxx: $spacing-size-step * 24 + px;
+$spacing-lxxx: $spacing-size-step * 32 + px;
+
+$page-max-width: 1280px;
+
+$font-color: #323232;
+$main-background-color: #F1EFEB;
+$secondary-background-color: white;
+$border-color: #e5e3de;

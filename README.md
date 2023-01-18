@@ -1,3 +1,20 @@
+# Instruction for starting
+
+Since this is made with nextjs I've kept the default readme file below.
+
+To run this site execute the following commands:
+
+```bash
+npm install
+# installs all packages
+npm run dev
+# runs the server.
+```
+
+Once running go to http://localhost:3000/. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
