@@ -13,7 +13,7 @@ npm run dev
 
 Once running go to http://localhost:3000/. 
 
-# Open API info
+# Site description
 
 This page was made with https://thecatapi.com/. It fetches some random cat images and displays it on the main page. 
 From there, you can select a cat image you like, and you'll be redirected to the details page. 
