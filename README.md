@@ -1,8 +1,8 @@
 # Instruction for starting
 
-Since this is made with nextjs I've kept the default readme file below.
+Since this is made with nextjs I've kept the default readme file from the generation below.
 
-To run this site execute the following commands:
+To vie this site, execute the following commands:
 
 ```bash
 npm install
